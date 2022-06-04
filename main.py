@@ -7,6 +7,7 @@ import os
 import  random
 
 
+
 font = cv2.FONT_HERSHEY_PLAIN
 trained_faces_data = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 trained_palm_data = cv2.CascadeClassifier("palm.xml")
